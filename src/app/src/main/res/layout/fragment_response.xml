@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:padding="20dp"
+             tools:context="com.chan.okredenvelopes.pages.ResponseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginTop="40dp">
+        <TableRow>
+            <TextView android:text="联系方式"/>
+            <EditText android:id="@+id/id_connection"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="遇到的问题"/>
+            <EditText android:maxLength="200"
+                android:id="@+id/id_question"/>
+        </TableRow>
+
+        <Button android:background="@drawable/dynamic_background"
+            android:text="提 交"
+            android:textColor="@color/colorTextNormal"
+            android:id="@+id/id_send"/>
+    </TableLayout>
+</FrameLayout>

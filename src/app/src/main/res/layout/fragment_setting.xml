@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp"
+              tools:context="com.chan.okredenvelopes.pages.SettingFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+        <TableRow>
+            <TextView android:text="辅助功能"/>
+            <Button
+                android:layout_width="49dp"
+                android:layout_height="32dp"
+                android:background="@color/colorNormal"
+                android:textColor="@color/colorTextNormal"
+                android:id="@+id/id_accessibility"
+                android:text="打开"/>
+        </TableRow>
+        <!--<TableRow android:layout_marginTop="4dp"-->
+            <!--android:id="@+id/id_notification">-->
+            <!--<TextView android:text="打开微信/QQ通知功能"-->
+                      <!--android:textSize="16sp"/>-->
+            <!--<Button-->
+                <!--android:layout_width="49dp"-->
+                <!--android:layout_height="32dp"-->
+                <!--android:background="@color/colorNormal"-->
+                <!--android:textColor="@color/colorTextNormal"-->
+                <!--android:text="打开"/>-->
+        <!--</TableRow>-->
+    </TableLayout>
+</LinearLayout>

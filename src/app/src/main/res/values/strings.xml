@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">红包拆拆</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_main_fragment">首次使用，请阅读帮助栏。有问题可以点击反馈栏通知我！</string>
+    <string name="start">启动插件</string>
+    <string name="end">关闭插件</string>
+    <string name="hello_help_fragment">每次使用前首先需要打开辅助功能，选中红包拆拆，转至首页，点击开始按钮便可以正常使用插件</string>
+</resources>

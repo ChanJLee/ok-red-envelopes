@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp"
+              tools:context="com.chan.okredenvelopes.pages.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_main_fragment"
+        android:layout_marginTop="@dimen/content_margin_top"
+        android:padding="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/id_start"
+        android:text="@string/start"
+        android:background="@drawable/dynamic_background"
+        android:textColor="@color/colorTextNormal"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/id_end"
+        android:text="@string/end"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/dynamic_background"
+        android:enabled="false"
+        android:textColor="@color/colorTextNormal"/>
+</LinearLayout>
